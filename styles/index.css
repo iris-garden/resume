@@ -1,0 +1,53 @@
+h4 {
+  color: inherit;
+}
+.page-width {
+  width: 40vw;
+}
+.header-width {
+  width: 103%;
+}
+.parent-width {
+  width: inherit;
+}
+.flex-column-right, .flex-column-centered, .flex-row-centered, .flex-row-left {
+  display: flex;
+}
+.flex-column-centered, .flex-row-centered, .flex-row-left {
+  align-items: center;
+}
+.flex-row-centered {
+  justify-content: space-between;
+}
+.flex-row-left, .flex-row-left {
+  justify-content: flex-start;
+}
+.flex-column-centered, .flex-column-right {
+  flex-direction: column;
+}
+.flex-column-right {
+  align-items: center;
+}
+.y-margin-mini {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.y-margin-small {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.r-margin-small, .x-margin-small {
+  margin-right: 0.25rem;
+}
+.l-margin-small, .x-margin-small {
+  margin-left: 0.25rem;
+}
+.r-margin-custom {
+  margin-right: 1.5rem;
+}
+.r-margin-medium, .x-margin-medium {
+  margin-right: 1.5rem;
+}
+.l-margin-medium, .x-margin-medium {
+  margin-left: 1.5rem;
+}

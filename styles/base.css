@@ -1,0 +1,96 @@
+/* variables */
+:root {
+  /* fonts */
+  --header-font: Ovo;
+  --body-font: Quattrocento Sans;
+  /* text styling */
+  --base-size: 1em;
+  --header-1-size: 4.25rem;
+  --header-1-weight: 700;
+  --header-2-size: 2.25rem;
+  --header-2-weight: 700;
+  --header-3-size: 1.2rem;
+  --header-3-weight: 700;
+  --header-4-size: 1rem;
+  --header-4-weight: 300;
+  --body-size: 1rem;
+  --body-weight: 400;
+  --small-size: 0.875rem;
+  --link-text-decoration: none;
+  /* container styling */
+  --container-border-style: solid;
+  --container-border-width: 1px;
+  --container-border-radius: 0.5rem;
+  --container-padding: 0.75em;
+  /* colors */
+  --fuschia-1: #EF5DA8;
+  --fuschia-2: #F178B6;
+  --fuschia-3: #FBDDEC;
+  --grey-1: #030303;
+  --grey-2: #212121;
+  --grey-3: #464646;
+  --grey-4: #656565;
+  --grey-5: #8B8B8B;
+  --grey-6: #A1A1A1;
+  --grey-7: #C9C9C9;
+  --grey-8: #DADADA;
+  --grey-9: #F7F7F7;
+  --iris-1: #5D5FEF;
+  --iris-2: #7879F1;
+  --iris-3: #A5A6F6;
+  --iris-4: #8586E3;
+  --turquoise-1: #57ECE3;
+  --turquoise-2: #89F2EB;
+  --turquoise-3: #BCF7F4;
+  --green-1: #72E972;
+}
+/* default styles */
+* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+html {
+  background-color: var(--grey-9);
+  color: var(--grey-2);
+  font-family: var(--body-font);
+  font-size: var(--base-size);
+  font-weight: var(--body-weight);
+}
+a {
+  color: var(--iris-4);
+  text-decoration: var(--link-text-decoration);
+}
+a:hover {
+  color: var(--turquoise-1);
+}
+h1 {
+  color: var(--grey-2);
+  font-family: var(--header-font);
+  font-size: var(--header-1-size);
+  font-weight: var(--header-1-weight);
+}
+h2 {
+  color: var(--grey-2);
+  font-family: var(--header-font);
+  font-size: var(--header-2-size);
+  font-weight: var(--header-2-weight);
+}
+h3 {
+  color: var(--grey-2);
+  font-family: var(--header-font);
+  font-size: var(--header-3-size);
+  font-weight: var(--header-3-weight);
+}
+h4 {
+  color: var(--grey-5);
+  font-family: var(--body-font);
+  font-size: var(--body-size);
+  font-weight: var(--header-4-weight);
+}
+div.card {
+  border-style: var(--container-border-style);
+  border-width: var(--container-border-width);
+  border-radius: var(--container-border-radius);
+  border-color: var(--grey-8);
+  padding: var(--container-border-padding);
+}
