@@ -94,3 +94,6 @@ div.card {
   border-color: var(--grey-8);
   padding: var(--container-border-padding);
 }
+.grey-5 {
+  color: var(--grey-5);
+}
